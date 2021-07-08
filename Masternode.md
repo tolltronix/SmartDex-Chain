@@ -37,7 +37,7 @@ To copy within Ubuntu press ``Ctrl + Shift + C`` and to paste press ``Ctrl + Shi
 
 To run a Masternode, you will need tmux, Go & GVM.
 For full details on GVM, you can refer to https://github.com/moovweb/gvm however this guide includes all the steps you will need.
-Start by opening terminal and entering the following 
+Start by opening terminal and entering the following. This needs to be done from the root.
 
 ```bash 
 sudo apt update
@@ -81,7 +81,7 @@ nano pass.txt
 ```
 
 ## Save your SDX Masternode Account password
-You will now need to enter the Password which you used to create the MSAA
+You will now need to enter the Password which you used to create the MSAA. Only use letters for this.
 ```bash
 [ENTER SECURE PASSWORD]
 ctrl + x & y
